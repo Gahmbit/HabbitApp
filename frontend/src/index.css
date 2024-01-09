@@ -130,6 +130,16 @@ table {
 #root {
     padding: 0;
     margin: 0;
-    max-width: 100%;
+    width: 100%;
+    min-height: 1vh;
     overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
 }

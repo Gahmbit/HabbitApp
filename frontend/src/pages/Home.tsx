@@ -1,12 +1,13 @@
 // import React from "react";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { LandingPage } from "../components/LandingPage";
 
 const Home = () => {
     return (
         <div className="container">
             <Header />
-            <h1>Home</h1>
+            <LandingPage />
             <Footer />
         </div>
     );
